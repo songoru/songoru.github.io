@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-560 -560 1120 1120">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22e1f0"/><stop offset="1" stop-color="#1f5fe0"/></linearGradient>
+<path id="o" fill-rule="evenodd" d="M460 0A460 460 0 1 0 -460 0A460 460 0 1 0 460 0Z M374 0A374 374 0 1 0 -374 0A374 374 0 1 0 374 0Z"/>
+<path id="a" fill-rule="evenodd" d="M258 0A258 258 0 1 0 -258 0A258 258 0 1 0 258 0Z M180 0A180 180 0 1 0 -180 0A180 180 0 1 0 180 0Z"/>
+<clipPath id="otl"><rect x="-600" y="-600" width="520" height="521"/></clipPath>
+<clipPath id="obl"><rect x="-600" y="79" width="520" height="521"/></clipPath>
+<clipPath id="or"><rect x="80" y="-600" width="520" height="1200"/></clipPath>
+<clipPath id="ul"><polygon points="-690.6,727.2 587.4,-812.8 -131,-1409 -1409,131"/></clipPath>
+<clipPath id="lr"><polygon points="-656.7,755.3 621.3,-784.7 1409,-131 131,1409"/></clipPath>
+<clipPath id="below"><rect x="-600" y="-14" width="1200" height="614"/></clipPath>
+<clipPath id="above"><rect x="-600" y="-600" width="1200" height="502"/></clipPath>
+<clipPath id="circ"><circle r="258"/></clipPath>
+<mask id="m"><g clip-path="url(#lr)"><use href="#a" fill="#fff" clip-path="url(#below)"/></g><polygon points="-72,-14 300,-14 300,55 -38,55" fill="#fff" clip-path="url(#circ)"/></mask>
+</defs>
+<rect x="-560" y="-560" width="1120" height="1120" fill="#05080b"/>
+<use href="#o" fill="url(#g)" clip-path="url(#otl)"/><use href="#o" fill="url(#g)" clip-path="url(#obl)"/><use href="#o" fill="url(#g)" clip-path="url(#or)"/>
+<use href="#a" fill="url(#g)" clip-path="url(#ul)"/>
+<g clip-path="url(#lr)"><use href="#a" fill="url(#g)" clip-path="url(#above)"/></g>
+<rect x="-258" y="-258" width="516" height="516" fill="url(#g)" mask="url(#m)"/>
+</svg>
